@@ -1,2 +1,2 @@
-# king
-Portfolio Website using HTML, CSS, and JavaScript
+# quizapp
+this is a quiz app
