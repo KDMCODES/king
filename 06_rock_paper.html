@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>Rock Paper -scissors</p>
+
+   <!--Beginning of rock-->
+    <button onclick="
+    //create a random pick for the computer 
+    const randomNumber = Math.random();
+    
+    let computerMove ='';
+
+    if (randomNumber >=0 && randomNumber< 1/3){
+         computerMove = 'Rock';
+    }else if (randomNumber >= 1/3 && randomNumber < 2/3){
+         computerMove ='Paper';
+    }else if (randomNumber >= 2/3 && randomNumber < 1){
+         computerMove ='Scissors';
+        }
+    console.log(computerMove);
+
+    let result = '';
+
+    if(computerMove === 'rock'){
+        result ='Tie.';
+    }else if (computerMove === 'paper'){
+        result = 'you lose';
+    }else if (computerMove === 'Scissors'){
+        result = 'you win ';
+    }
+    alert( `You picked rock. computer picked ${computerMove} ${result}`);
+
+    ">Rock</button>
+     <!--end of rock-->
+
+       <!--Beginning of paper-->
+    <button onclick="
+    const randomNumber = Math.random();
+    
+    let computerMove ='';
+
+    if (randomNumber >=0 && randomNumber< 1/3){
+         computerMove = 'Rock';
+    }else if (randomNumber >= 1/3 && randomNumber < 2/3){
+         computerMove ='Paper';
+    }else if (randomNumber >= 2/3 && randomNumber < 1){
+         computerMove ='Scissors';
+        }
+    console.log(computerMove);
+
+    let result = '';
+
+    if(computerMove === 'rock'){
+        result ='lose.';
+    }else if (computerMove === 'paper'){
+        result = 'you win';
+    }else if (computerMove === 'Scissors'){
+        result = 'you lose ';
+    }
+    alert( `You picked rock. computer picked ${computerMove} ${result}`);
+
+    ">Paper</button>
+     <!--end of paper-->
+
+        <!--Beginning of scissors-->
+    <button onclick="
+         const randomNumber = Math.random();
+    
+    let computerMove ='';
+
+    if (randomNumber >=0 && randomNumber< 1/3){
+         computerMove = 'Rock';
+    }else if (randomNumber >= 1/3 && randomNumber < 2/3){
+         computerMove ='Paper';
+    }else if (randomNumber >= 2/3 && randomNumber < 1){
+         computerMove ='Scissors';
+        }
+    console.log(computerMove);
+
+    let result = '';
+
+    if(computerMove === 'rock'){
+        result ='Tie.';
+    }else if (computerMove === 'paper'){
+        result = 'you lose';
+    }else if (computerMove === 'Scissors'){
+        result = 'you win ';
+    }
+    alert( `You picked rock. computer picked ${computerMove} ${result}`);
+
+    ">Scissors</button>
+     <!--end of scissors-->
+   
+   <script>
+        /*when writting js the first step is to  do and convert the steps into code 
+        understand the steps you are to take 
+        steps 
+        when click a button 
+        1. the computer randomly selects a move 
+        2. compare the move to get the result 
+        3. display the result in a popup .
+         this is called an agorithm */ 
+        
+    </script>
+</body>
+</html>
